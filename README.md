@@ -5,7 +5,7 @@ that most need help.  The goal would be for this to work well for project nights
 meetups, conferences and anyone else interested in hacking on various projects while
 also helping the main Ember repositories get much needed help with issues.
 
-The goal is for this app to interface with https://github.com/ember-learn/ember-help-wanted-backend as the backend.
+The goal is for this app to interface with https://github.com/ember-learn/ember-help-wanted-server as the backend.
 
 ## Big picture aim of this app
 
@@ -35,7 +35,7 @@ accomplish ambitious things faster.
 
 ## Big picture technically
 
-To accomplish the above, we aim to have [a Node backend](https://github.com/ember-learn/ember-help-wanted-backend)
+To accomplish the above, we aim to have [a Node backend](https://github.com/ember-learn/ember-help-wanted-server)
 that receives Github webhook notifications about issues across a number of Ember
 projects.  The backend will filter those issues and store them to act as our
 "pool" of potential issues that potential contributors can work on.
